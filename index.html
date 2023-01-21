@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Shape Application</title>
+  </head>
+  <body>
+    <h1>My Shapes</h1>
+    <div id="output"></div>
+
+    <script src="./shape.js"></script>
+    <script src="./circle.js"></script>
+    <script>
+      const myShape = new Shape("red");
+      myShape.drawShape();
+      myShape.calculateArea();
+  
+      const myCircle = new Circle("blue");
+      myCircle.drawShape();
+      myCircle.calculateArea();
+    </script>
+  </body>
+</html>
